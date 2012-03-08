@@ -1,0 +1,1 @@
+﻿package ca.nait.d3.circumcenter.sprite{	import flash.events.Event;		public class KnobEvent extends Event{		public static var CHANGE:String = "ca.nait.d3.builderslevel.sprite.KnobEvent.CHANGE";		public var delta:Number = 0;		public function KnobEvent(type:String, bubbles:Boolean=false, cancelable:Boolean=false){			super(type, bubbles, cancelable);		}	}}
